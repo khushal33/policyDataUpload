@@ -1,0 +1,7 @@
+module.exports.config = {
+    "LOCAL": {
+      "dataBase": {
+        "dbConnectionString": process.env.DB_CONNECTION,
+      },
+    }
+  }
